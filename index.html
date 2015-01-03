@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shoppinglist</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script> 
+	<script src="js/app.js" type="text/javascript"></script>
+	</head>
+<body>
+	<section class="box top">
+		<h1 class="title">
+			Shopping list
+		</h1>	
+	</section> 
+	<section class="box list-box">
+			<ul class="list">
+				<li class="list-item">
+					<!--<div name="box">x</div>-->
+					<input type="checkbox" name="got" value="" class="checklist">
+					<span>Badger</span>
+					<span class="addedcost">£4</span>
+					<button class="kill">Got</button>
+				</li>
+				<li class="list-item">
+					<input type="checkbox" name="got" value="" class="checklist">
+					<span>Bacon</span>
+					<span class="addedcost">£7</span>
+					<button class="kill">Got</button>
+				</li>
+				<li class="list-item">
+					<input type="checkbox" name="got" value="" class="checklist">
+					<span>Bananas</span>
+					<span class="addedcost">£9</span>
+					<button class="kill" >Got</button>
+				</li>
+				<li class="list-item">
+					<input type="checkbox" name="got" value="" class="checklist">
+					<span class="addeditem">Beer</span>
+					<span class="addedcost">£3</span>
+					<button class="kill">Got</button>
+				</li>
+			</ul>
+	</section>
+	
+	<section class="add-buttons">
+		<section class="small-box ">
+			<form>
+				<p>Shopping item:
+				<input type="text" name="item" id="shopitem">
+				<p>Cost:
+				<input type="number" name="price" id="shopprice">
+				<button class="add-item">Add</button>
+				</p>
+			</form>
+		</section> <!-- BUTTON TO ADD ITEMS -->
+		
+		<section class="small-box kill-box">
+			<form>
+			<p>Remove all items
+			<button class="abort" type="button">Abort mission</button>
+			</p>
+			</form>
+		</section> <!-- KILL ITEMS -->
+		<section></section> <!-- -->
+	</section>
+
+</body>
+</html>

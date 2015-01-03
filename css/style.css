@@ -1,0 +1,178 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+/* End of Reset */
+
+/* General styles */ 
+
+body {
+    width: 1400px;
+    text-align: center;
+    background-image: url(../assets/supermarket.jpg);
+}
+
+.box {
+    background-color: #fff;
+    border: 3px solid #000;
+    width: 50%;
+    display: inline-block;
+    margin: 2em 0em 0em 0em;
+    overflow: hidden;
+}
+
+/* end of general styles */ 
+
+/* heading */ 
+
+h1, p, span, button {
+    font-family: 'Passion One', cursive;
+}
+
+h1 {
+    font-size: 2.5em;
+    height: 1.5em;
+    padding-top: 0.25em;
+    color: red;
+}
+
+h1, li, p {
+    background-color: #fff;
+}
+
+p, span {
+    font-size: 1em;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+/* end of heading */ 
+
+/* list items */ 
+
+li {
+    height: 1.5em;
+    margin-top: 0.2em;
+}
+
+.list-box {
+    border-radius: 10px;
+}
+
+.list li div, button{
+    display: inline-block;
+}
+
+.list div {
+    text-align: left;
+    float: left;
+}
+
+
+.list button {
+    text-align: right;
+    float: right;
+}
+
+.kill {
+    background-image: url(../assets/cross.png);
+    margin-right: 1em;
+}
+
+.checkbox { /* help on this */ 
+    text-align: left;
+    float: left;
+    display: inline-block;
+}
+
+/* end of list items */ 
+
+
+/* add buttons */ 
+
+.add-buttons {
+    text-align: center;
+}
+
+.small-box {
+    border: 3px black solid;
+    border-radius: 30px;
+    width: 50%;
+    text-align: center;
+    margin: 1em 0em 0em 0em;
+    height: 4.5em;
+    background-color: #fff;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.small-box p {
+    display: block;
+    margin: 0.5em;
+}
+
+.kill-box {
+    height: 3em;
+}
+
+.kill-box p {
+    margin: 0.6em;
+}
+
+
+.title {
+    font-size: 2.5em;
+    height: 1.5em;
+    padding-top: 0.25em;
+    color: red;
+}
+
+.anothertitle {
+    background-color: black; 
+    height: 2.5em;
+}
+
+h2 {
+    color: #fff;
+}
+
+
+/* end of add buttons */ 
+
+
